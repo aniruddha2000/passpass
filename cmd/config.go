@@ -9,7 +9,7 @@ const (
 	LoweCaseValues    string = "abcdefghijklmnopqrstuvwxyz"
 	UpperCaseValues   string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	NumberValues      string = "0123456789"
-	SpecialCharValues string = "!@#$%^&*"
+	SpecialCharValues string = "~!@#$%^&*()_+`-={}|[]\\:\"<>?,./"
 )
 
 type Config struct {
